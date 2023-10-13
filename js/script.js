@@ -33,10 +33,8 @@ function scrollTop() {
 window.addEventListener("scroll", () => {
   if (window.scrollY >= 70) {
     navEl.classList.add("sticky");
-    toTopEl.classList.add("show");
   } else {
     navEl.classList.remove("sticky");
-    toTopEl.classList.remove("show");
   }
 });
 
