@@ -25,11 +25,6 @@ function incrementStats() {
   });
 }
 
-function scrollTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
 window.addEventListener("scroll", () => {
   if (window.scrollY >= 70) {
     navEl.classList.add("sticky");
@@ -46,8 +41,6 @@ document.addEventListener("scroll", (e) => {
     incrementStats();
   }
 });
-
-toTopEl.addEventListener("click", scrollTop);
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
