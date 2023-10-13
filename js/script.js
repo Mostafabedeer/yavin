@@ -48,7 +48,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2000,
   delay: 400,
-  reset: true, //Animations repeat
+  //reset: true, //Animations repeat
 });
 
 sr.reveal(`.sr-left`, { origin: "left" });
