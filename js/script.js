@@ -63,4 +63,3 @@ const sr = ScrollReveal({
 sr.reveal(`.sr-left`, { origin: "left" });
 sr.reveal(`.sr-right`, { origin: "right" });
 sr.reveal(`.sr`, { origin: "bottom" });
-// sr.reveal(`.sr-top`, { origin: "center" });
