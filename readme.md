@@ -15,6 +15,7 @@ Bootstrap website for a company that creates and customizes office spaces. It co
 - Contact form
 - Inner article page
 - Font awesome icons
+- With the ScrollReveal library, we've added smooth and captivating animations that bring the website to life as users scroll through the content, enhancing the overall user experience.
 
 ## Usage
 
